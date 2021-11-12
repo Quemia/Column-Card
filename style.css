@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  margin: 1rem;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.columnsContent {
+  display: flex;
+}
+
+.orangeColumn {
+  display: flex;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+
+  background-color: rgb(226, 133, 37);
+  color: rgb(240, 230, 228);
+}
+
+.blueColumn {
+  background-color: rgb(1, 105, 114);
+  color: rgb(145, 229, 233);
+  display: flex;
+}
+
+.greenColumn {
+  display: flex;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+
+  background-color: rgb(0, 64, 63);
+  color: rgb(141, 186, 187);
+}
+
+.cardColumn {
+  padding: 2.2rem;
+}
+
+.title {
+  color: rgb(225, 240, 243);
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.textCard {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.orangeButton {
+  padding: 0.75rem 1.5rem;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 1.6rem;
+
+  background-color: #fff;
+  color: rgb(226, 133, 37);
+
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.orangeButton:hover {
+  padding: 0.75rem 1.5rem;
+  margin-top: 4rem;
+
+  border: 2px #fff solid;
+  border-radius: 1.6rem;
+
+  background-color: rgb(226, 133, 37);
+  color: #fff;
+}
+
+.blueButton {
+  padding: 0.75rem 1.5rem;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 1.6rem;
+
+  background-color: #fff;
+  color: rgb(1, 105, 114);
+
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.blueButton:hover {
+  padding: 0.75rem 1.5rem;
+  margin-top: 4rem;
+
+  border: 2px #fff solid;
+  border-radius: 1.6rem;
+
+  background-color: rgb(1, 105, 114);
+  color: #fff;
+}
+
+.greenButton {
+  padding: 0.75rem 1.5rem;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 1.6rem;
+
+  background-color: #fff;
+  color: rgb(0, 64, 63);
+
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.greenButton:hover {
+  padding: 0.75rem 1.5rem;
+  margin-top: 4rem;
+
+  border: 2px #fff solid;
+  border-radius: 1.6rem;
+
+  background-color: rgb(0, 64, 63);
+  color: #fff;
+}
