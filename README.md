@@ -27,7 +27,7 @@ The first step is to download the repository in your machine with git or in zip 
 
     $ git clone git@github.com:Quemia/ColumnCard.git
 
-    $ cd Column-Card
+    $ cd ColumnCard
 ```
 
 
